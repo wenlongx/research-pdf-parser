@@ -181,7 +181,7 @@ def main():
             idx += 1
     
     print("Writing out to file")
-    write_csv(rows[-1])
+    write_csv(rows[:-1])
 
 if __name__ == "__main__":
     main()
